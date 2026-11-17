@@ -1,0 +1,36 @@
+{
+    "threshold": 0.37,
+    "features": [
+        "Country",
+        "Region",
+        "City",
+        "ASN",
+        "Browser Name and Version",
+        "OS Name and Version",
+        "Device Type",
+        "Login Successful",
+        "Is Attack IP",
+        "Login Hour",
+        "Login Day",
+        "Login Is Weekend"
+    ],
+    "categorical_features": [
+        "Country",
+        "Region",
+        "City",
+        "Browser Name and Version",
+        "OS Name and Version",
+        "Device Type"
+    ],
+    "numeric_features": [
+        "ASN",
+        "Login Successful",
+        "Is Attack IP",
+        "Login Hour",
+        "Login Day",
+        "Login Is Weekend"
+    ],
+    "target": "Is Account Takeover",
+    "model": "XGBoost",
+    "encoded_features": 15928
+}

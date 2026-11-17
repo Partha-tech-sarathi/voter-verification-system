@@ -1,0 +1,2 @@
+ORB_Distance_Limit,Decision_Threshold,Genuine_Samples,Impostor_Samples,True_Accepts,True_Rejects,False_Accepts,False_Rejects,FAR_Percent,FRR_Percent,Approx_EER_Percent,Accuracy_Percent
+55,11,100,100,93,93,7,7,7.0,7.0,7.0,93.0
